@@ -14,16 +14,15 @@ abcd
 
 #include <stdio.h>
 #include <algorithm>
+#include <string.h>
 using namespace std;
 
 int main(){
     char buf[201];
-    for(int i=0;i<201;i++){
-        gets(buf[i]);
+    while(gets(buf)){
+        int l=strlen(buf);
+        sort(buf,buf+l);
+            printf("%s\n",buf);
     }
-        sort(buf,buf+n);
-        for(int 0;i<201;i++){
-            printf("%s",buf[i]);
-        }
-
+    return 0;
 }
