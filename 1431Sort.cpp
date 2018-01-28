@@ -22,7 +22,7 @@ int main(){
         for(int i=-500000;i<=500000;i++){
         Hash[i+OFFSET]=0;
         }
-        for(int i=1;i<n;i++){
+        for(int i=1;i<=n;i++){
         int x;
         scanf("%d",&x);
         Hash[x+OFFSET]=1;
