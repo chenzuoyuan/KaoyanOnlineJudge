@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 /*题目描述: 
+=======
+/*
+题目描述: 
+>>>>>>> be4136afe956a1db42a5093d6012701d8da66ca4
 有一棵树，输出某一深度的所有节点，有则输出这些节点，无则输出EMPTY。该树是完全二叉树。
 输入描述:
 输入有多组数据。
@@ -27,8 +32,13 @@ int main(){
         }
         int k=int(log(n*1.0)/log(2.0));
         scanf("%d",&d);
+<<<<<<< HEAD
         if(d>k){//if...else if的条件顺序错误会导致结果截然不同 
             printf("EMPTY\n"); 
+=======
+        if(d>k){//if...else if的条件顺序错误会导致结果截然不同
+            printf("EMPTY\n");
+>>>>>>> be4136afe956a1db42a5093d6012701d8da66ca4
         }
         else if(d<k){
             for(int i=(int)pow(2,d-1);i<(int)pow(2,d)-1;i++){
